@@ -4,7 +4,8 @@
   "description": "QE Assessment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/cypress run --browser chrome",
+    "cypress": "cypress open"
   },
   "keywords": [],
   "author": "Mohammed Isioye",
