@@ -1,0 +1,49 @@
+## Proposed test cases after manual test
+
+**IMPORTANT**
+Please note that the following cases are based on manual interaction with the provided link and 
+no valid login credentials was provided, hence the following hypothesis
+
+Test 1 - View Access Policy Modal
+  - Navigate to qa.safplatform.com
+  - Click on the Access Policy text in the bottom right of the page
+  - A modal containing the Access Policy should be visible
+  - Click the 'x' icon to close the modal
+
+Test 2 - Attempt Login without filling the login form
+  - Navigate to qa.safplatform.com
+  - Click on the 'Sign In' button
+  - A text in red should appear showing 'You have entered an invalid email or password.Try again or click Reset Password below.'
+
+Test 3 - Attempt Login by filling just the email form field
+  - Navigate to qa.safplatform.com
+  - In the email field enter a sample email
+  - Click on the 'Sign In' button
+  - A text in red should appear showing 'You have entered an invalid email or password.Try again or click Reset Password below.'
+
+Test 4 - Attempt Login by filling just the password form field
+  - Navigate to qa.safplatform.com
+  - In the password field enter a sample email
+  - Click on the 'Sign In' button
+  - A text in red should appear showing 'You have entered an invalid email or password.Try again or click Reset Password below.'
+
+Test 5 - Attempt Login by completing the login form field
+  - Navigate to qa.safplatform.com
+  - In the email field enter a sample email
+  - In the password field enter a sample password
+  - Click on the 'Sign In' button
+  - A text in red should appear showing 'You have entered an invalid email or password.Try again or click Reset Password below.'
+
+Test 6 - Attempt to Reset Password
+  - Navigate to qa.safplatform.com
+  - Click on the 'Reset Password' text below the login form
+  - In the email field enter a sample email
+  - Click on the 'Send' button
+  - The page should be redirected to the 'https://qa.safplatform.com/login' with a modal showing 'Your new password is on its way! Check your mailbox for the link to reset your password.'
+
+Test 7 - Attempt Forgot Password
+  - Navigate to qa.safplatform.com
+  - Click on the 'Forgot Password' text below the login form
+  - In the email field enter a sample email
+  - Click on the 'Send' button
+  - The page should be redirected to the 'https://qa.safplatform.com/login' with a modal showing 'Your new password is on its way! Check your mailbox for the link to reset your password.'
