@@ -16,6 +16,9 @@ To choose which tests file to run use
 npm run cypress
 ```
 
+### Documentation
+The proposed test cases on which the application tests was written can be found in proposed_test.txt
+
 ### Technologies used
 [Cypress](https://www.cypress.io/) - Fast, easy and reliable testing for anything that runs in a browser.
 
